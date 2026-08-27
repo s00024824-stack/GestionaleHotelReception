@@ -1,4 +1,5 @@
-package PACKAGE_NAME;
-
-public class TipoCameraException {
+public class TipoCameraException extends Exception{
+    public TipoCameraException(String messaggio) {
+        super(messaggio);
+    }
 }

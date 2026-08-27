@@ -1,4 +1,3 @@
-package PACKAGE_NAME;
-
-public class Calcolabile {
+public interface Calcolabile {
+    double calcolaCosto();
 }
